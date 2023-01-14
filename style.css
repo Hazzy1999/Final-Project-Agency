@@ -795,6 +795,8 @@ padding: 1rem 0;
     padding: 0 8rem;
     transition: 0.3s;
     height: auto;
+    position: sticky;
+    top: 0;
 
 
 
