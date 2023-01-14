@@ -1037,7 +1037,7 @@ padding: 1rem 0;
     flex-direction: column;
     gap: 2rem;
     width: fit-content;
-    background-color:gray;
+    background-color:rgba(128, 128, 128, 0.452);
     padding: 1rem 1rem;
     border-radius: 1rem;
 }
@@ -1047,7 +1047,7 @@ padding: 1rem 0;
     appearance: none;
     width: 1.5rem;
     height: 1.5rem;
-    outline: 4px solid var(--radio-color, currentColor);
+    outline: 6px solid var(--radio-color, currentColor);
     outline-offset: 4px;
     border-radius: 50% ;
 
