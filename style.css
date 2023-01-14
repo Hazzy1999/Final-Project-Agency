@@ -1013,7 +1013,7 @@ padding: 1rem 0;
 
 
 }
-/*---------------THEME SELECTOR----------------*/
+/*---------------THEME SELECTOR-------------------------------------------------------------------*/
 .visually-hidden{
     clip: rect( 0 0 0 0);
     clip-path: inset(50%);
@@ -1079,7 +1079,16 @@ padding: 1rem 0;
     --back-color:green;
     --brown-color:white;
 }
-
+/*-------------------------------------------*/
+:root:has(#light:checked) .header,
+:root:has(#light:checked) .heading{
+    background-color: #F3D1BF;
+    color: #28293E;
+}
+:root:has(#light:checked) .nav-menu li a{
+    color:#28293E;
+}
+/*-------------------------------------------*/
 :root:has(#dark:checked){
 --back-color:rgb(31, 28, 28);
 --brown-color:white;
@@ -1092,18 +1101,37 @@ padding: 1rem 0;
     background-color: rgb(34, 31, 31);
 
 }
+/*-------------------------------------------*/
 
 :root:has(#pink:checked){
     --back-color:pink;
     --back-dark:rgb(201, 140, 151);
     --orange-color-light:pink;
 }
+:root:has(#pink:checked) .header,
+:root:has(#pink:checked) .heading{
+    background-color: rgb(255, 213, 220);
+    color: black;
+}
+:root:has(#pink:checked) .nav-menu li a{
+    color: #28293E;
+}
+/*--------------------------------------------*/
 
 :root:has(#green:checked){
     --back-color:rgba(89, 160, 89, 0.555);
     --back-dark:rgba(77, 158, 77, 0.733);
     --orange-color-light:rgba(58, 92, 58, 0.603);
 }
+:root:has(#green:checked) .header,
+:root:has(#green:checked) .heading{
+    background-color: rgb(116, 199, 116);
+    color: black;
+}
+:root:has(#green:checked) .nav-menu li a{
+    color: white;
+}
+
 
 /*-----------------ENDS THEME SELECTOR---------------------------*/
 
