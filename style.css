@@ -1022,11 +1022,10 @@ padding: 1rem 0;
     width: 1px;
 }
 
-.color-picker{
-    margin: 1rem ;
-}
+
 
 .heading .color-picker{
+    margin: 0 1rem;
     position:absolute;
     left: 0;
     
@@ -1057,8 +1056,8 @@ padding: 1rem 0;
     background-color: var(--radio-color);
 }
 
-.color-picker input[type="radio"]#light{--radio-color:var(--back-color)}
-.color-picker input[type="radio"]#dark{--radio-color:var(--back-dark)}
+.color-picker input[type="radio"]#light{--radio-color:white;}
+.color-picker input[type="radio"]#dark{--radio-color:black;}
 .color-picker input[type="radio"]#pink{--radio-color:pink}
 .color-picker input[type="radio"]#green{--radio-color:green}
 
